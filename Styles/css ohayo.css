@@ -1,0 +1,57 @@
+.cabecera{
+    color: #fff;
+    height: 250px;
+    line-height: 160px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serifs;
+    font-weight: 800;
+    text-align: center;
+    font-size: 175%;
+    position: relative;
+}
+
+.header{
+    padding-top: 10%;
+    width: 40%;
+    height: 0px;
+    color: rgb(255, 255, 255);
+    z-index: 1;
+}
+
+.image-fondo {
+    background-image: url("https://i.imgur.com/ytezqOm.jpeg");
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.image-fondo:before {
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.4;
+}
+.toji {
+    display: flex;
+    justify-content: center;
+}
+.megumi {
+    padding: 10px;
+    margin: 30px;
+    width: 200px;
+    box-sizing: content-box;
+    height: 160px;
+    background-color: rgb(217, 217, 217);
+    font-family: league-gothic, sans-serif;
+    color: rgb(0, 41, 96);
+    font-size: xx-large;
+    text-align: center;
+}
+
+footer{
+    background: rgb(1, 1, 75);
+    padding: 130px;
+    margin-top: 3%;
+}
